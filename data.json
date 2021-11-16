@@ -37,7 +37,7 @@
                               {"time": "12:30-13:30", "event": "Lunch"},
                               {"time": "14:00-14:50", "event": "NLP plus/for EEG data analysis"},
                               {"time": "15:00-17:00", "event": "Hacking Time"},
-                              {"time": "17:00-17:30", "event": "Presentation, discussion and closing"}]},
+                              {"time": "17:00-17:30", "event": "Presentation, discussion and closing"}]}
                             ],
     "location_logo": "",
     "location_name": "UCSF Mission Bay Campus (rooms TBD)",
