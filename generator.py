@@ -1,5 +1,5 @@
 __author__ = 'akeshavan'
-from Jinja2 import Environment, FileSystemLoader
+from jinja2 import Environment, FileSystemLoader
 import os
 import simplejson as json
 
