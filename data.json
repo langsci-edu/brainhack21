@@ -1,16 +1,16 @@
 {
   "title": "Brainhack Taipei 2021",
-  "location": "Taipei, TWN",
+  "location": "Taipei, Taiwan",
   "dates": "December 11, 2021",
   "year": "2021",
-  "background_img": "../img/sf_4.jpg",
+  "background_img": "../img/Taipeiatnight.jpeg",
   "color_theme": {"background": "#3b2e26", "font": "#fff", "link_color": "#e24401"},
   "global_brainhack_organizers": ["Cameron Craddock"],
   "registration_link":"https://www.eventbrite.com/e/brainhack-global-san-francisco-2019-tickets-76825419899",
-  "slack_link":"https://urldefense.proofpoint.com/v2/url?u=https-3A__mattermost.brainhack.org_brainhack_channels_brainhack-2Dglobal-2D2019&d=DwMFaQ&c=iORugZls2LlYyCAZRB3XLg&r=U0BHv7kiA1bAHy66RZaD_9wwwdqFzqniUoP9My19LtA&m=7_Xqq-I9Bq53JCJd7rqM8-QzzQe9OEh6pbPiAwO4gmk&s=VQls9lYlmNQb_zaFLnXIisZ_vw8il4NMCNYaRfCxK64&e=",
-  "project_submit_link":"http://www.brainhack.org/submission.html",
-  "title_photo_link":"https://www.flickr.com/photos/davidyuweb/",
-  "title_photo_author": "David Yu",
+  "slack_link":"",
+  "project_submit_link":"",
+  "title_photo_link":"https://www.flickr.com/photos/63138333@N00/314845827",
+  "title_photo_author": "orange tuesday ",
   "services":[{
     "name": "Share",
     "desc": "Show your research to other neuroimaging researchers.",
@@ -27,7 +27,7 @@
     "desc":"Meet researchers from a variety of backgrounds.",
     "fa_icon": "fa-wechat"}],
     "details": {"costs":"Lunch will be provided: $5 / day. Free admission."},
-    "schedule_background_img": "../img/sf_3.jpg",
+    "schedule_background_img": "../img/brains.jpg",
     "schedule":  [
                     {"date": "Saturday, December 11",
                     "times": [{"time": "9:00-9:10", "event": "Opening"},
@@ -40,9 +40,9 @@
                               {"time": "17:00-17:30", "event": "Presentation, discussion and closing"}]}
                             ],
     "location_logo": "",
-    "location_name": "UCSF Mission Bay Campus (rooms TBD)",
-    "location_url":"https://www.ucsf.edu/about/locations/mission-bay",
-    "google_maps_link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.970140006163!2d-122.39414365603153!3d37.76729833543564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7fcf22c08705%3A0xeaa83e6b468eddf1!2sGenentech%20Hall!5e0!3m2!1sen!2sus!4v1572908585004!5m2!1sen!2sus",
-    "sponsors": [{"name": "Center for Intelligent Imaging (CI2)", "url": "https://intelligentimaging.ucsf.edu/", "logo":"https://intelligentimaging.ucsf.edu/sites/g/files/tkssra2316/f/ci2-radiology-dept-logo2.png"}],
-    "organizers": ["Valentina Borghesani", "Pablo Damasceno", "Maria Luisa Mandelli", "Valentina Pedoia"]
+    "location_name": "國立台灣大學普通教學館 301 教室",
+    "location_url":"https://theatre.ntu.edu.tw/wp-content/uploads/2016/11/dept_building_map.pdf",
+    "google_maps_link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.457093602881!2d121.53453281500602!3d25.018557383979612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a989dec77285%3A0x8b1e98041249ade3!2zMTA25Y-w5YyX5biC5aSn5a6J5Y2A5pmu6YCa5pWZ5a246aSo!5e0!3m2!1szh-TW!2stw!4v1637251252306!5m2!1szh-TW!2stw",
+    "sponsors": [{"name": "教育部大專校院人文與社會科學領域標竿計畫（語言學）Humanities and Social Sciences Benchmark Project (Linguistics) from Ministry of Education, Taiwan", "url": "", "logo":""}],
+    "organizers": ["吳恩賜", "李佳霖", "徐峻賢", "謝舒凱", "曾昱翔"]
 }

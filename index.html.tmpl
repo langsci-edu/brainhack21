@@ -79,10 +79,8 @@
 		    </div>
 
       <br>
-			<a href="{{registration_link}}" target="_blank" class="btn btn-dark btn-lg top5 left5">Register Now</a>
-      <a href="{{slack_link}}" target="_blank" class="btn btn-dark btn-lg top5 left5">Join Brainhack on Mattermost</a>
-      <a href="{{project_submit_link}}" target="_blank" class="btn btn-dark btn-lg top5 left5">Submit a Project</a><br><br>
-
+			<a href="{{registration_link}}" target="_blank" class="btn btn-dark btn-lg top5 left5">Register Now  立即報名</a>
+      
       <br><br><br>
       <div class="row">
         <div class="col-xl-8 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
@@ -90,7 +88,7 @@
         </div>
         </div>
 			<br><br><br>
-            <p>Photos by <a href="{{title_photo_link}}">{{title_photo_author}}</a></p>
+            <p>Photo by <a href="{{title_photo_link}}">{{title_photo_author}}</a></p>
             <!-- <a href="#about" class="btn btn-dark btn-lg">Find Out More</a> -->
         </div>
           <div class="text-bottom-right">
@@ -148,14 +146,17 @@
             <div class="row text-center">
                  <div class="col-xl-8 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
 					<p><h3><a href="{{registration_link}}" target="_blank">Registration for the {{title}} is now open!</a></h3></p>
-		    <p>The {{title}} is an official satellite event of the <a href="http://events.brainhack.org/global{{year}}/" target="_blank">International Global Brainhack {{year}}</a> that is organized by
+                    <br>
+		    <p>The {{title}} is an official satellite event of the <a href="https://brainhack.org/global{{year}}/" target="_blank">International Global Brainhack {{year}}</a> that is organized by
             {% for org in global_brainhack_organizers %}
             {{org}}
             {% endfor %}
            . The goal of the hackathon is to bring together researchers with disparate backgrounds to collaborate on open science projects in neuroimaging.</p>
+           <br><br>
 					<h4>Dates: {{dates}}</h4>
 					<h4>Costs: {{details.costs}}</h4>
 					<h4>Location: <a href="#map"> {{location}}</a></h4>
+                    <br><br>
 					<p>Participants are encouraged to post project ideas to <a href="http://www.brainhack.org" target="_blank">www.brainhack.org</a> and to submit a report describing their project to the <a href="http://www.brainhack.org/proceedings">{{year}} Brainhack Proceedings</a> that will be published by <a href="http://gigasciencejournal.com/">Gigascience</a> after the event.</p>
 					<p>Please join <a href="{{slack_link}}" target="_blank">the Brainhack Slack project</a> for updated information on the developing Hackathon content and to contribute your own ideas.</p>
                    </div>
@@ -209,7 +210,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3 class="text-color-blue">Hosted at: <a href="{{location_url}}">{{location_name}}</a></h3>
+                    <h3 class="text-color-blue">Hosts at： <a href="{{location_url}}">{{location_name}}</a></h3>
                 </div>
             </div>
         </div>
@@ -272,7 +273,11 @@
                     </ul><br>
                 </div>
             </div>
+            <div class="row">
+                <p class="col-lg-10 col-lg-offset-1 text-center"> © Brainhack Taipei 2021</p>
+            </div>
         </div>
+        
     </footer>
 
     <!-- jQuery -->
