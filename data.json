@@ -4,7 +4,7 @@
   "dates": "December 11, 2021",
   "year": "2021",
   "background_img": "../img/Taipeiatnight.jpeg",
-  "color_theme": {"background": "#3b2e26", "font": "#fff", "link_color": "#e24401"},
+  "color_theme": {"background": "#002929", "font": "#fff", "link_color": "#e24401"},
   "global_brainhack_organizers": ["Cameron Craddock"],
   "registration_link":"https://forms.gle/nQbSVvsKBuURtsJZ9",
   "slack_link":"",

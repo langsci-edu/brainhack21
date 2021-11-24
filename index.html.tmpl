@@ -147,11 +147,7 @@
                  <div class="col-xl-8 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
 					<p><h3><a href="{{registration_link}}" target="_blank">Registration for the {{title}} is now open!</a></h3></p>
                     <br>
-		    <p>The {{title}} is an official satellite event of the <a href="https://brainhack.org/global{{year}}/" target="_blank">International Global Brainhack {{year}}</a> that is organized by
-            {% for org in global_brainhack_organizers %}
-            {{org}}
-            {% endfor %}
-           . The goal of the hackathon is to bring together researchers with disparate backgrounds to collaborate on open science projects in neuroimaging.</p>
+		    <p>The {{title}} is an official satellite event of the <a href="https://brainhack.org/global{{year}}/" target="_blank">International Global Brainhack {{year}}</a>. The goal of the hackathon is to bring together researchers with disparate backgrounds to collaborate on open science projects in neuroimaging.</p>
            <br><br>
 					<h4>Dates: {{dates}}</h4>
 					<h4>Costs: {{details.costs}}</h4>
@@ -231,7 +227,7 @@
         <div class="container-fluid">
             <div class="row no-gutter">
 				<div class="col-lg-12 text-center">
-				    <br><h3 class="text-color-blue"><strong>The {{title}} is generously sponsored By:</strong></h3><br><br>
+				    <br><h3 class="text-color-blue"><strong>The {{title}} is supported By:</strong></h3><br><br>
 			    </div>
 			</div>
 {% for sponsor in sponsors %}
@@ -258,13 +254,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h3><strong>For more information:</strong></h3>
-                    <i class="fa fa-envelope-o fa-fw"></i>
-                    <a href="mailto:info@brainhack.org">info@brainhack.org</a>
-                    <br>
-                    <br>
                     <h3><strong>Organizers:</strong>
-                    </h3>
+                    </h3><br>
                     <ul class="list-unstyled">
                       {% for org in organizers %}
                         <li><h4>{{org}}</h4></li>
