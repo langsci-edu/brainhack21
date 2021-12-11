@@ -77,9 +77,8 @@
 					<h2>{{dates}}</h2>
 				</div>
 		    </div>
-
-      <br>
-			<a href="{{registration_link}}" target="_blank" class="btn btn-dark btn-lg top5 left5">Register Now  立即報名</a>
+        <br>
+        <a href="{{github_link}}" target="_blank" class="btn btn-dark btn-lg top5 left5">前往 Github 下載 slides </a>
       
       <br><br><br>
       <div class="row">
@@ -145,7 +144,6 @@
         <div class="container">
             <div class="row text-center">
                  <div class="col-xl-8 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
-					<p><h3><a href="{{registration_link}}" target="_blank">Registration for the {{title}} is now open!</a></h3></p>
                     <br>
 		    <p>The {{title}} is an official satellite event of the <a href="https://brainhack.org/global{{year}}/" target="_blank">International Global Brainhack {{year}}</a>. The goal of the hackathon is to bring together researchers with disparate backgrounds to collaborate on open science projects in neuroimaging.</p>
            <br><br>
@@ -170,7 +168,7 @@
 			</div>
 			<div class="row top30">
 {% for sched in schedule %}
-				<div class="col-md-6 col-lg-4 col-sm-10 col-xs-10 col-md-offset-0 col-lg-offset-0 col-sm-offset-1 col-xs-offset-1">
+				<div class="col-md-6 col-lg-6 col-sm-10 col-xs-10 col-md-offset-0 col-lg-offset-0 col-sm-offset-1 col-xs-offset-1">
 					<div class="row top5 text-center">
 				        <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2 text-dark">
 					        <h4>{{sched.date}}</h4>
@@ -178,12 +176,16 @@
 				    </div>
             {% for time in sched.times %}
 					<div class="row top5">
-			            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+			            <div class="col-md-4 col-md-offset-1 col-lg-3 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
 				            {{time.time}}
 			            </div>
-			            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
-				            {{time.event}}
+			            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-7 col-lg-offset-1 col-xs-7 text-dark">
+				            <a href="{{time.slide}}" target="_blank" target="_blank">{{time.event}}</a>
+                            <br>
+                            {{time.speaker}}
+                            
 			            </div>
+                        
 				    </div>
             {% endfor %}
             <div class="row top5">&nbsp;
@@ -261,7 +263,12 @@
                         <li><h4>{{org}}</h4></li>
                         {% endfor %}
 
-                    </ul><br>
+                    </ul><br><br><br>
+                </div>
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <p>若有疑問或需要協助之處，請來信 ntulingpio@gmail.com </p>
+                    <p>網頁資訊維護：Joy S. Chiang </p>
+                    <br>
                 </div>
             </div>
             <div class="row">
