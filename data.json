@@ -27,7 +27,7 @@
   {"name":"Be Social",
     "desc":"Meet researchers from a variety of backgrounds.",
     "fa_icon": "fa-wechat"}],
-    "details": {"costs":"Lunch will be provided: $5 / day. Free admission."},
+    "details": {"costs":"Lunch will be provided. Free admission."},
     "schedule_background_img": "../img/brains.jpg",
     "schedule":  [
                     {"date": "Saturday, December 11",
